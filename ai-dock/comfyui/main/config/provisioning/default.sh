@@ -41,6 +41,8 @@ UNET_MODELS=(
 
 LORA_MODELS=(
     #"https://civitai.com/api/download/models/16576"
+    "https://civitai.com/api/download/models/491317?type=Model&format=SafeTensor"
+    "https://civitai.com/api/download/models/666573?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/534952?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/880954?type=Model&format=SafeTensor"
     "https://civitai.com/api/download/models/520909?type=Model&format=SafeTensor"
@@ -71,11 +73,19 @@ ESRGAN_MODELS=(
     "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
     "https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
     "https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
+    "https://civitai.com/api/download/models/597721?type=Model&format=SafeTensor"
 )
 
 CONTROLNET_MODELS=(
     "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
     "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors?download"
+    "https://civitai.com/api/download/models/655749?type=Model&format=SafeTensor&size=full&fp=fp16"
+    "https://civitai.com/api/download/models/513560?type=Model&format=SafeTensor&size=full&fp=fp16"
+    "https://civitai.com/api/download/models/267929?type=Model&format=SafeTensor&size=full&fp=fp32"
+    "https://civitai.com/api/download/models/267753?type=Model&format=SafeTensor&size=full&fp=fp32"
+    "https://civitai.com/api/download/models/155532?type=Model&format=SafeTensor&size=full&fp=fp32"
+    "https://civitai.com/api/download/models/496890?type=Model&format=SafeTensor&size=full&fp=fp16"
+    "https://civitai.com/api/download/models/497056?type=Model&format=SafeTensor&size=full&fp=fp16"
     "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/t2i-adapter_diffusers_xl_openpose.safetensors"
     "https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_canny-fp16.safetensors"
     #"https://huggingface.co/webui/ControlNet-modules-safetensors/resolve/main/control_depth-fp16.safetensors"
